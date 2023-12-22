@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.section_menu_admin{
+    background-color: white;
+    width: 480px;
+    height: 745px;
+    box-shadow: 5px 0px 15px rgb(142, 142, 151);
+}
+
+.represent_menu{
+    margin: 10px 20px;
+    display: flex;
+    /* border-bottom: 1px solid black; */
+    text-align: center;
+    align-items: center;
+}
+
+.logo_website{
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    object-fit: cover;
+    /* border-radius: 50%; */
+}
+
+.title_website{
+    font-size: 22px;
+}
+
+/* css cho phần menu */
+
+.options_menu{
+    /* align-items: center; */
+    /* text-align: center; */
+    /* color: green; */
+}
+
+.status_manage{
+    text-align: center;
+    font-size: 22px;
+    margin: 5px 0px;
+    background-color: rgb(182, 190, 190);
+}
+
+.infomation_sum{
+    padding: 5px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.infomation_sum:hover, .infomation_sum:hover a{
+    background-color: rgb(182, 190, 190);
+    color: rgb(207, 80, 20);
+}
+
+.manage_products{
+    font-size: 22px;
+}
+
+.title_product{
+    color: rgb(103, 95, 83);
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.manage_product_detail, .manage_client-detail{
+    padding: 10px 20px;
+    margin: 5px 0px;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.manage_product_detail:hover, .manage_product_detail:hover a, .manage_client-detail:hover, .manage_client-detail:hover a{
+    background-color: rgb(182, 190, 190);
+    color: rgb(207, 80, 20);
+}
+
+/* .manage_list_products:hover .title_product{
+    color: blueviolet;
+} */
+
+.manage_clients{
+    font-size: 22px;
+}
+
+.title_clients{
+    color: rgb(103, 95, 83);
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.manage_list_client{
+    padding: 10px 20px;
+    margin: 5px 0px;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.manage_list_driver{
+    padding: 10px 20px;
+    margin: 5px 0px;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.manage_client-detail:hover{
+    background-color: rgb(182, 190, 190);
+    color: rgb(207, 80, 20);
+}
+
+/* css bên phải */
+
+.section_right_manage{
+    
+    width: 100%;
+}
+
+.section_account_admin{
+    /* margin-top: 10px; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* background-color: aquamarine; */
+    height: 60px;
+    box-shadow: 5px 0px 15px rgb(142, 142, 151);
+}
+
+.img_account{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* justify-content: right; */
+}
+
+/* css cho khung bốn biểu đồ */
+
+.section_layout_content{
+    height: auto;
+    /* box-shadow: 0px -1px 5px 3px #999 inset; */
+}
+/* css cho 2 khung biểu đồ ở trên */
+.top_content{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 30px 30px;
+}
+/* khung biểu đồ 1 */
+.layout_infomation_content{
+    width: 500px;
+    height: 290px;
+    box-shadow: 0px -1px 5px 3px #999 ;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+.layout_infomation_content:hover{
+    background-color: rgb(182, 190, 190);
+    /* color: aquamarine; */
+}
+/* tiêu đề biểu đồ */
+.title_infomation{
+    font-size: 22px;
+    color: pink;
+    margin: 10px 20px 5px;
+}
+/* chi tiết biểu đồ */
+.detail_infomation{
+    display: flex;
+}
+/* css thông tin lựa chọn bên trái */
+.left_info{
+    width: 65%;
+}
+/* css chung cho 4 nội dung lựa chọn biểu đồ */
+.chart_revenue, .chart_transport, .chart_comment, .chart_thinking{
+    display: flex;
+    margin: 15px 15px;
+    padding: 10px 0px;
+    font-size: 18px;
+    position: relative;
+}
+
+.chart_revenue h4, .chart_transport h4, .chart_comment h4, .chart_thinking h4{
+    margin-right: 20px;
+}
+
+.chart_revenue p, .chart_transport p, .chart_comment p, .chart_thinking p{
+    color: red;
+}
+
+.chart_revenue:hover, .chart_transport:hover, .chart_comment:hover, .chart_thinking:hover{
+    background-color: rgb(123, 255, 0);
+}
+
+.manage_revenue, .manage_transport, .manage_comment, .manage_thinking{
+    color: transparent;
+    position: absolute;
+    top: 0;
+    left:0;
+    padding: 10px 100px;
+}
+
+/* css biểu đồ */
+.right_info{
+    align-items: center;
+    margin: 20px 20px 0px 0px;
+}
+/* css cho biểu đồ tiến độ doanh thu */
+.progress_circle_revenue, .progress_circle_transport, .progress_circle_comment, .progress_circle_thinking{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #941f1f;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* css cho mức độ % biểu đồ */
+.progress_total_revenue, .progress_total_transport, .progress_total_comment, .progress_total_thinking{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(red 0deg, white 0deg);
+    border-radius: 50%;
+    transform-origin: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* animation: fill-rotate 5s linear infinite; */
+}
+
+.progress_total_revenue::before, .progress_total_transport::before, .progress_total_comment::before, .progress_total_thinking:before{
+    content: "";
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    background-color: rgb(250, 244, 193);
+}
+
+.percentage, .percentage_transport, .percentage_comment, .percentage_thinking{
+    position: relative;
+    font-size: 50px;
+    color: #f76161;
+}
+/* hết */
+
+
+
+
+
+
+
+.bottom_content{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px;
+}
+
+.chart_products_bestseler{
+    text-align: center;
+    /* border: 1px solid red; */
+    margin: 20px 0px 0px 30px;
+    position: relative;
+}
+
+.y-axis{
+    position: absolute;
+    font-size: 20px;
+    padding-left: 3px;
+    /* left: 3px; */
+    bottom: 5px;
+    /* border-right: 1px solid red; */
+}
+
+.y-axis::before{
+    content: "";
+    position: absolute;
+    bottom: 24px;
+    left: 53px;
+    width: 1px;
+    height: 220px;
+    border-right: 1px solid red;
+}
+
+.y-axis p{
+    /* margin: 5px; */
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.chart {
+    position: relative;
+    bottom: 0;
+    left: 50px;
+    width: 300px;
+    height: 200px;
+    /* background-color: #f0f0f0; */
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .bar {
+    width: 20px;
+    background-color: #2e9dc6;
+    margin: 0 20px;
+    position: relative;
+    /* margin; */
+  }
+  
+  .value {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    font-size: 12px;
+  }
+
+.x-axis{
+    display: flex;
+    border-top: 1px solid red;
+    position: relative;
+    left: 54px;
+}
+.x-axis p{
+    margin: 10px 14px 0px 12px;
+}

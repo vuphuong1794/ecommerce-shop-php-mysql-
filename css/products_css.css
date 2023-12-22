@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.section_menu_admin{
+    background-color: white;
+    width: 480px;
+    height: 745px;
+    box-shadow: 5px 0px 15px rgb(142, 142, 151);
+}
+
+.represent_menu{
+    margin: 10px 20px;
+    display: flex;
+    /* border-bottom: 1px solid black; */
+    text-align: center;
+    align-items: center;
+}
+
+.logo_website{
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    object-fit: cover;
+    /* border-radius: 50%; */
+}
+
+.title_website{
+    font-size: 22px;
+}
+
+/* css cho phần menu */
+
+.options_menu{
+    /* align-items: center; */
+    /* text-align: center; */
+    /* color: green; */
+}
+
+.status_manage{
+    text-align: center;
+    font-size: 22px;
+    margin: 5px 0px;
+    
+}
+
+.infomation_sum{
+    padding: 5px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.infomation_sum:hover, .infomation_sum:hover a{
+    background-color: rgb(182, 190, 190);
+    color: rgb(207, 80, 20);
+}
+
+.manage_products{
+    font-size: 22px;
+}
+
+.title_product{
+    color: rgb(103, 95, 83);
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.manage_product_detail, .manage_client-detail{
+    padding: 10px 20px;
+    margin: 5px 0px;
+    color: black;
+    font-size: 18px;
+    
+}
+.manage_list_products{
+    background-color: rgb(182, 190, 190);
+}
+.manage_product_detail:hover, .manage_product_detail:hover a, .manage_client-detail:hover, .manage_client-detail:hover a{
+    background-color: rgb(182, 190, 190);
+    color: rgb(207, 80, 20);
+}
+
+/* .manage_list_products:hover .title_product{
+    color: blueviolet;
+} */
+
+.manage_clients{
+    font-size: 22px;
+}
+
+.title_clients{
+    color: rgb(103, 95, 83);
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.manage_list_client{
+    padding: 10px 20px;
+    margin: 5px 0px;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.manage_list_driver{
+    padding: 10px 20px;
+    margin: 5px 0px;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.manage_client-detail:hover{
+    background-color: rgb(182, 190, 190);
+    color: rgb(207, 80, 20);
+}
+
+/* css ben phair */
+
+.section_right_manage{
+    width: 100%;
+}
+
+.section_account_admin{
+    height: 60px;
+    box-shadow: 5px 0px 15px rgb(142, 142, 151);
+}
+
+.img_account{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* justify-content: right; */
+}
+/* css bảng danh sách và khác */
+.section_layout_content{
+    display: flex;
+    margin: 30px 0px 0px 20px;
+    /* max-height: 640px; */
+    /* border: 1px solid red; */
+    /* overflow: hidden; */
+}
+
+.area_section_data{
+    width: 60%;
+    overflow-x: auto;
+}
+
+.list_info_detail_product{
+    box-shadow: 5px 0px 15px rgb(142, 142, 151);
+    max-height: 600px; 
+    min-width: 700px;
+}
+
+.list_products{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    max-height: 20px;
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.area_edit_info_product{
+    margin-left: 30px;
+}
+
+.edit_product{
+    border: 1px solid white;
+    font-size: 22px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 0px 15px rgb(142, 142, 151);
+    padding-top: 20px;
+}
+
+.form_edit_product{
+    margin: 30px 20px 20px 20px;
+    
+}
+
+.form_edit_product::before{
+    content:"Thông tin sản phẩm";
+    background-color: rgba(255, 255, 255,0);
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    margin-left: 10px;
+}
+
+.form-group{
+    margin: 0px 0px 20px 0px;
+    /* text-align: center; */
+    align-items: center;
+}
+
+#description{
+    width: 280px;
+    height: 80px;
+}
+

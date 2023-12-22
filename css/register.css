@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+a:hover,a:focus{
+    text-decoration: none;
+}
+
+.login-container {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-left: 35%;
+}
+
+.login-container img{
+    margin-left: 60px;
+}
+
+.login-container h2 {
+    font-size: 24px;
+    margin-left: 190px;
+    margin-bottom: 18px;
+}
+
+.register-form label,
+.register-form input {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.register-form button {
+    padding: 8px 15px;
+    background-color: #db4f66;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.quay_ve{
+    margin-top: 30px;
+    margin-left: 45px;
+}
+.quay_ve a{
+  color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: rgba(254, 0, 0, 1.0);
+}
+.quay_ve input:hover{
+    border: transparent;
+}
+.quay_ve a:hover{
+    border: 1px solid rgba(254, 0, 0, 1.0);
+    background-color: transparent;
+    color: rgba(254, 0, 0, 1.0);
+}
